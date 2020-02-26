@@ -1,0 +1,61 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_isim_beh.exe -prj /home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_beh.prj work.pipeline work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/PC.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/MUX.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/lab4/mem_wb.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/lab4/data_memory.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/lab4/AND.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Lab 2/s_extend.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Lab 2/reg.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Lab 2/id_ex.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Lab 2/control.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/InstructionMemory.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/IF_ID.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/EX_MEM.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/ALU_CONTROL.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/ALU.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/ADD.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/lab4/MEMORY.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_FETCH.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_DECODE.v" into library work
+Analyzing Verilog file "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Pipeline.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 65: Size mismatch in connection of port <a>. Formal port size is 32-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 66: Size mismatch in connection of port <b>. Formal port size is 32-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 68: Size mismatch in connection of port <y>. Formal port size is 32-bit while actual signal size is 5-bit.
+Completed static elaboration
+Fuse Memory Usage: 82832 KB
+Fuse CPU Usage: 810 ms
+Compiling module MUX
+Compiling module PC
+Compiling module InstructionMemory
+Compiling module IF_ID
+Compiling module ADD
+Compiling module I_FETCH
+Compiling module control
+Compiling module register
+Compiling module s_extend
+Compiling module id_ex
+Compiling module I_DECODE
+Compiling module ALU
+Compiling module ALU_CONTROL
+Compiling module EX_MEM
+Compiling module I_EXECUTE
+Compiling module AND
+Compiling module data_memory
+Compiling module mem_wb
+Compiling module MEMORY
+Compiling module pipeline
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 21 Verilog Units
+Built simulation executable /home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_isim_beh.exe
+Fuse Memory Usage: 1167396 KB
+Fuse CPU Usage: 850 ms
+GCC CPU Usage: 870 ms

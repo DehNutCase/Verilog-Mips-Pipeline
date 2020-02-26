@@ -1,0 +1,41 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 testmux.ngc testmux.ngd
+
+Reading NGO file "/home/csusb.edu/006198682/Documents/CSE
+401/CSE401_Project/testmux.ngc" ...
+Loading design module "/home/csusb.edu/006198682/Documents/CSE
+401/CSE401_Project/testmux.ngc"...
+WARNING:NgdBuild:578 - Design contains no instances.
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+ERROR:NgdBuild:605 - logical root block 'testmux' with type 'testmux' is
+   unexpanded. Symbol 'testmux' is not supported in target 'artix7'.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     1
+  Number of warnings:   1
+
+Total memory usage is 438832 kilobytes
+
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "testmux.bld"...

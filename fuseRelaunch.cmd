@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_isim_beh.exe" -prj "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_beh.prj" "work.pipeline" "work.glbl" 

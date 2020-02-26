@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/test_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "test_mux.ngc" test_mux.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim test_mux.ngd test_mux_translate.v 

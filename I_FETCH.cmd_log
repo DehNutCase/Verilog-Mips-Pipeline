@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_FETCH.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_FETCH.syr" 
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_FETCH.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_FETCH.syr" 

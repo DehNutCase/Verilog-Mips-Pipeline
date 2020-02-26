@@ -1,0 +1,84 @@
+ISim log file
+Running: /home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 28.  For instance IEXECUTE2/ex_mux_2/, width 32 of formal port a is not equal to width 5 of actual signal instrout_1511.
+WARNING: File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 28.  For instance IEXECUTE2/ex_mux_2/, width 32 of formal port b is not equal to width 5 of actual signal instrout_2016.
+WARNING: File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 39.  For instance IEXECUTE2/ex_mux_2/, width 32 of formal port y is not equal to width 5 of actual signal muxout.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+From Data Memory (data.txt):
+	DMEM[0] = 0
+	DMEM[1] = 1
+	DMEM[2] = 2
+	DMEM[3] = 3
+	DMEM[4] = 4
+	DMEM[5] = 5
+From Data Memory (initial):
+	DMEM[6] = x
+	DMEM[7] = x
+	DMEM[8] = 8
+	DMEM[9] = 9
+	...
+	DMEM[255] = 255
+Finished circuit initialization process.
+RTYPE.
+From Register Memory:
+	REG[0] = 0
+	REG[1] = 0
+	REG[2] = 0
+	REG[3] = 0
+	REG[4] = 0
+	REG[5] = 0
+	REG[6] = 0
+	REG[7] = 0
+	REG[8] = 0
+	...
+	REG[31] = 0
+BEQ.
+RTYPE.
+LW.
+Opcode not recognized.
+Stopped at time : 24 ns :  in File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Pipeline.v" Line 22 
+# restart
+# run all
+Simulator is doing circuit initialization process.
+From Data Memory (data.txt):
+	DMEM[0] = 0
+	DMEM[1] = 1
+	DMEM[2] = 2
+	DMEM[3] = 3
+	DMEM[4] = 4
+	DMEM[5] = 5
+From Data Memory (initial):
+	DMEM[6] = x
+	DMEM[7] = x
+	DMEM[8] = 8
+	DMEM[9] = 9
+	...
+	DMEM[255] = 255
+Finished circuit initialization process.
+RTYPE.
+From Register Memory:
+	REG[0] = 0
+	REG[1] = 0
+	REG[2] = 0
+	REG[3] = 0
+	REG[4] = 0
+	REG[5] = 0
+	REG[6] = 0
+	REG[7] = 0
+	REG[8] = 0
+	...
+	REG[31] = 0
+BEQ.
+RTYPE.
+LW.
+Opcode not recognized.
+Stopped at time : 24 ns :  in File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Pipeline.v" Line 22 

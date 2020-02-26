@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pipeline" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/pipeline/IEXECUTE2/wb_ctl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_ctl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_ctl[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/m_ctl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">m_ctl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ctl[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/regdst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regdst</obj_property>
+      <obj_property name="ObjectShortName">regdst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/alusrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/aluop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/npcout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">npcout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">npcout[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/rdata1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/rdata2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/s_extendout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s_extendout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_extendout[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/instrout_2016" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instrout_2016[4:0]</obj_property>
+      <obj_property name="ObjectShortName">instrout_2016[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/instrout_1511" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instrout_1511[4:0]</obj_property>
+      <obj_property name="ObjectShortName">instrout_1511[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/wb_ctlout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_ctlout[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_ctlout[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/memread" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memread</obj_property>
+      <obj_property name="ObjectShortName">memread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/memwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/EX_MEM_NPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EX_MEM_NPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_NPC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/alu_result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/rdata2out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdata2out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata2out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/five_bit_muxout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">five_bit_muxout[4:0]</obj_property>
+      <obj_property name="ObjectShortName">five_bit_muxout[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/adder_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adder_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/aluout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluout[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/muxout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">muxout[4:0]</obj_property>
+      <obj_property name="ObjectShortName">muxout[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">muxout[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/control" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">control[2:0]</obj_property>
+      <obj_property name="ObjectShortName">control[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/aluzero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">aluzero</obj_property>
+      <obj_property name="ObjectShortName">aluzero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IEXECUTE2/alu_control_1/funct" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

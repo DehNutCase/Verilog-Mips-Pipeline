@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/testmux.xst" -ofn "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/testmux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "testmux.ngc" testmux.ngd  

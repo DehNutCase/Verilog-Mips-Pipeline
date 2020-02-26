@@ -1,0 +1,5 @@
+verilog work "lab4/mem_wb.v"
+verilog work "lab4/data_memory.v"
+verilog work "lab4/AND.v"
+verilog work "lab4/MEMORY.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
