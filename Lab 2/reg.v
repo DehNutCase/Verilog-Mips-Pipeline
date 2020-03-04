@@ -45,9 +45,9 @@ begin
 		B <= REG[rt];// Assign the __ index of REG to B ;
 		
 	  	// WRITE data using index rd
-		  if (rd != 0 && regwrite)
+		  if (regwrite)
 		  begin
-		  REG[rd] <= regwrite;
+		  REG[rd] <= writedata;
 		  end
 			 //finish this line
 	

@@ -8,6 +8,7 @@ This is a Lite version of ISim.
 WARNING: File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 28.  For instance IEXECUTE2/ex_mux_2/, width 32 of formal port a is not equal to width 5 of actual signal instrout_1511.
 WARNING: File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 28.  For instance IEXECUTE2/ex_mux_2/, width 32 of formal port b is not equal to width 5 of actual signal instrout_2016.
 WARNING: File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 39.  For instance IEXECUTE2/ex_mux_2/, width 32 of formal port y is not equal to width 5 of actual signal muxout.
+WARNING: File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/WRITEBACK.v" Line 40.  For instance WB_2/write_back_mux/, width 32 of formal port y is not equal to width 1 of actual signal WB_mux5_writedata.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
@@ -82,3 +83,4 @@ RTYPE.
 LW.
 Opcode not recognized.
 Stopped at time : 24 ns :  in File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Pipeline.v" Line 22 
+# exit 0

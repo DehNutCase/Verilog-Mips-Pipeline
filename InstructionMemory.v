@@ -29,7 +29,7 @@ module InstructionMemory(addr, data);
 	 begin
 	     memory[0] <= 'h002300AA;
 		  memory[1] <= 'h10654321;
-		  memory[2] <= 'h00200022;
+		  memory[2] <= 'h00100022;
 		  memory[3] <= 'h8C123456;
 		  memory[4] <= 'h8F123456;
 		  memory[5] <= 'hAD654321;
@@ -37,6 +37,8 @@ module InstructionMemory(addr, data);
 		  memory[7] <= 'hAC654321;
 		  memory[8] <= 'h12012345;
 		  
+		  /*
+		  */
 	 end
 	 
 	 always @(addr)

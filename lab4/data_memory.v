@@ -17,7 +17,9 @@ module data_memory (
 		read_data <= 0;
 		
 		//  Initialize DMEM[0-5] from data.txt
+		
 		$readmemb("data.txt",DMEM);
+		
 		DMEM[0] <= 'h002300AA;
 		DMEM[1] <= 'h10654321;
 		DMEM[2] <= 'h00100022;
@@ -28,8 +30,10 @@ module data_memory (
 		DMEM[7] <= 'hAC654321;
 		DMEM[8] <= 'h12012345;
 		
+		
 		// Initialize DMEM[6-255] to 6-255
 		for (i = 8; i < 256; i = i + 1)
+		//for (i = 0; i < 256; i = i + 1) //remove this if we use more memory
 			DMEM[i] = i;
 		
 		//Display DMEM[0-5]
@@ -51,7 +55,6 @@ module data_memory (
    always@(addr) begin
 			//finish this thread. Hint: Requires 2 if statements
 	      //kl double check this
-			read_data <= 0;
 			if (memwrite == 1)
 			begin
 			    DMEM[addr] <= write_data;

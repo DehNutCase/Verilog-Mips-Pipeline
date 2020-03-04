@@ -13,8 +13,8 @@ initial begin
 	regwrite <= 0;
 	//finish this thread
 	memtoreg <= 0;
-	
-	read_data <= 0; mem_alu_result <= 0;
+	read_data <= 0; 
+	mem_alu_result <= 0;
 	mem_write_reg <= 0;
 end
 

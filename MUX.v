@@ -27,7 +27,5 @@ module MUX(a, b, sel, y);
     output wire [31:0] y;
 	 
 	 assign y = sel ? a : b;
-	 //comment the next bit once memory is actually used for PC
-	 //assign y = b;
 	 
 endmodule
