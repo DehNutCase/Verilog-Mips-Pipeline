@@ -3,18 +3,119 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_isim_beh1.wdb" id="1" type="auto">
+      <db_ref path="/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_isim_beh.wdb" id="1" type="auto">
          <top_modules>
             <top_module name="glbl" />
             <top_module name="pipeline" />
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="8" />
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/pipeline/IF_ID_instrout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IF_ID_instrout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_instrout[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/MEM_PCSrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_PCSrc</obj_property>
+      <obj_property name="ObjectShortName">MEM_PCSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/EX_MEM_NPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EX_MEM_NPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_NPC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/MEM_WB_rd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_WB_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/MEM_WB_regwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_WB_regwrite</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/WB_mux5_writedata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WB_mux5_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_mux5_writedata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/regdst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regdst</obj_property>
+      <obj_property name="ObjectShortName">regdst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/alusrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/aluop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/npcout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">npcout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">npcout[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/rdata1out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdata1out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata1out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/rdata2out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdata2out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata2out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/s_extendout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s_extendout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_extendout[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/instrout_2016" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instrout_2016[4:0]</obj_property>
+      <obj_property name="ObjectShortName">instrout_2016[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/instrout_1511" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instrout_1511[4:0]</obj_property>
+      <obj_property name="ObjectShortName">instrout_1511[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/IDECODE2/MEM_WB_regwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_WB_regwrite</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/wb_ctlout_pipe" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_ctlout_pipe[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_ctlout_pipe[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/memread" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memread</obj_property>
+      <obj_property name="ObjectShortName">memread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/memwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/alu_result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/rdata2out_pipe" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdata2out_pipe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata2out_pipe[31:0]</obj_property>
+   </wvobject>
    <wvobject fp_name="/pipeline/five_bit_muxout" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">five_bit_muxout[4:0]</obj_property>
       <obj_property name="ObjectShortName">five_bit_muxout[4:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/pipeline/MEM_WB_memtoreg" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">MEM_WB_memtoreg</obj_property>
@@ -23,191 +124,200 @@
    <wvobject fp_name="/pipeline/read_data" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">read_data[31:0]</obj_property>
       <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/pipeline/mem_alu_result" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">mem_alu_result[31:0]</obj_property>
       <obj_property name="ObjectShortName">mem_alu_result[31:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/pipeline/MEM_2/data_memory4/DMEM" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">DMEM[0:255,31:0]</obj_property>
-      <obj_property name="ObjectShortName">DMEM[0:255,31:0]</obj_property>
+   <wvobject fp_name="/pipeline/IF_ID_npcout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IF_ID_npcout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_npcout[31:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/pipeline/MEM_2/data_memory4/addr" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">addr[31:0]</obj_property>
-      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/pipeline/MEM_2/data_memory4/write_data" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
-      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/pipeline/IDECODE2/register2/REG" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">REG[0:31,31:0]</obj_property>
       <obj_property name="ObjectShortName">REG[0:31,31:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[0]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[0,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[0,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[1]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[1,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[1,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[2]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[2,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[2,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[3]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[3,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[3,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[4]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[4,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[4,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[5]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[5,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[5,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[6]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[6,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[6,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[7]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[7,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[7,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[8]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[8,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[8,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[9]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[9,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[9,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[10]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[10,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[10,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[11]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[11,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[11,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[12]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[12,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[12,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[13]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[13,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[13,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[14]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[14,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[14,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[15]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[15,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[15,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[16]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[16,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[16,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[17]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[17,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[17,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[18]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[18,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[18,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[19]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[19,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[19,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[20]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[20,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[20,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[21]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[21,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[21,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[22]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[22,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[22,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[23]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[23,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[23,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[24]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[24,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[24,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[25]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[25,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[25,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[26]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[26,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[26,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[27]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[27,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[27,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[28]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[28,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[28,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[29]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[29,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[29,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[30]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[30,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[30,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/pipeline/IDECODE2/register2/REG[31]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[31,31:0]</obj_property>
          <obj_property name="ObjectShortName">REG[31,31:0]</obj_property>
-         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
+   </wvobject>
+   <wvobject fp_name="/pipeline/WB_2/WriteData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/WB_2/write_back_mux/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/WB_2/write_back_mux/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline/WB_2/write_back_mux/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
 </wave_config>

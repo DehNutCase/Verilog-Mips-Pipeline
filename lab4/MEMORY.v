@@ -13,8 +13,7 @@ module MEMORY(
     );
 
 	// signals
-	wire	[31:0]	read_data_in;
-
+	wire [31:0]	read_data_in;
 	// instantiations
 	
   // Finish wiring this puppy up 

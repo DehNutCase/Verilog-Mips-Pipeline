@@ -19,7 +19,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module InstructionMemory(addr, data);
-	 
+	 integer i;
 	 input wire [31 : 0] addr;
 	 output reg [31 : 0] data;
 	 
@@ -27,18 +27,9 @@ module InstructionMemory(addr, data);
 	 reg [31 : 0] memory [127 : 0];
 	 initial
 	 begin
-	     memory[0] <= 'h002300AA;
-		  memory[1] <= 'h10654321;
-		  memory[2] <= 'h00100022;
-		  memory[3] <= 'h8C123456;
-		  memory[4] <= 'h8F123456;
-		  memory[5] <= 'hAD654321;
-		  memory[6] <= 'h13012345;
-		  memory[7] <= 'hAC654321;
-		  memory[8] <= 'h12012345;
-		  
-		  /*
-		  */
+	   $readmemb("instruction_final.txt", memory);
+	   for (i = 0; i < 24; i = i +1)
+		  $display(memory[i]);
 	 end
 	 
 	 always @(addr)

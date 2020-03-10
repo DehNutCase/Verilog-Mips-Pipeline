@@ -86,6 +86,7 @@ module pipeline();
 	wire				MEM_WB_memtoreg;
 	wire	[31:0]	read_data, mem_alu_result;
    //Instantiate Memory Unit Here
+	wire WB_delay;
 	
 	MEMORY MEM_2 (.wb_ctlout(wb_ctlout_pipe),
 	              .branch(branch),
@@ -96,17 +97,20 @@ module pipeline();
 					  .rdata2out(rdata2out_pipe),
 					  .five_bit_muxout(five_bit_muxout),
 					  .MEM_PCSrc(MEM_PCSrc),
-					  .MEM_WB_regwrite(MEM_WB_regwrite),
+					  .MEM_WB_regwrite(WB_delay),
 					  .MEM_WB_memtoreg(MEM_WB_memtoreg),
 					  .read_data(read_data),
 					  .mem_alu_result(mem_alu_result),
 					  .mem_write_reg(MEM_WB_rd));
 
 	// WRITEBACK
-   //Instantiate Write Back Unit Here 
+   //Instantiate Write Back Unit Here
+	
 	WRITEBACK WB_2 (.MEM_WB_memtoreg(MEM_WB_memtoreg),
 	                .read_data(read_data),
 						 .mem_alu_result(mem_alu_result),
-						 .WriteData(WB_mux5_writedata));
+						 .WriteData(WB_mux5_writedata),
+						 .MEM_WB_regwrite(MEM_WB_regwrite),
+						 .WB_delay(WB_delay));
 										
 endmodule // pipeline

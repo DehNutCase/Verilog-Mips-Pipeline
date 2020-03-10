@@ -1,4 +1,4 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_isim_beh.exe -prj /home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_beh.prj pipeline work.glbl 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_isim_beh.exe -prj /home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_beh.prj work.pipeline work.glbl 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
@@ -29,10 +29,9 @@ Starting static elaboration
 WARNING:HDLCompiler:189 - "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 65: Size mismatch in connection of port <a>. Formal port size is 32-bit while actual signal size is 5-bit.
 WARNING:HDLCompiler:189 - "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 66: Size mismatch in connection of port <b>. Formal port size is 32-bit while actual signal size is 5-bit.
 WARNING:HDLCompiler:189 - "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 68: Size mismatch in connection of port <y>. Formal port size is 32-bit while actual signal size is 5-bit.
-WARNING:HDLCompiler:189 - "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/WRITEBACK.v" Line 40: Size mismatch in connection of port <y>. Formal port size is 32-bit while actual signal size is 1-bit.
 Completed static elaboration
-Fuse Memory Usage: 82964 KB
-Fuse CPU Usage: 820 ms
+Fuse Memory Usage: 82832 KB
+Fuse CPU Usage: 790 ms
 Compiling module MUX
 Compiling module PC
 Compiling module InstructionMemory
@@ -56,8 +55,9 @@ Compiling module WRITEBACK
 Compiling module pipeline
 Compiling module glbl
 Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 22 Verilog Units
 Built simulation executable /home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/pipeline_isim_beh.exe
-Fuse Memory Usage: 1167400 KB
-Fuse CPU Usage: 860 ms
-GCC CPU Usage: 780 ms
+Fuse Memory Usage: 1167392 KB
+Fuse CPU Usage: 830 ms
+GCC CPU Usage: 740 ms

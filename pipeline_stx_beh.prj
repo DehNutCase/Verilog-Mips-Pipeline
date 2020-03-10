@@ -1,3 +1,4 @@
+verilog isim_temp "regwrite_pause.v"
 verilog isim_temp "PC.v"
 verilog isim_temp "MUX.v"
 verilog isim_temp "lab4/mem_wb.v"

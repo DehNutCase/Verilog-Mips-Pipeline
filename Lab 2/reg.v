@@ -27,9 +27,10 @@ begin
 	      REG[i] <= 'b0;
 			//REG[i] <= i; //KL, use this one occasionally
 		 end
-		 #1
+		/* #1
      //display contents of the first 9 reigsters
-     $display("From Register Memory:");
+     
+	  $display("From Register Memory:");
 		 for (i = 0; i < 9; i = i + 1)
 		 begin
 			 $display("\tREG[%0d] = %0d", i, REG[i]);
@@ -37,6 +38,8 @@ begin
 		//Display last register
 		  $display("\t...");
 		  $display("\tREG[%0d] = %0d", 31, REG[31]);
+      */
+		//KL, we don't need this anymore
 end
 
 always @ * 
@@ -45,7 +48,8 @@ begin
 		B <= REG[rt];// Assign the __ index of REG to B ;
 		
 	  	// WRITE data using index rd
-		  if (regwrite)
+		//0 register is always 0, so we can't write to it
+		  if (rd != 0 & regwrite)
 		  begin
 		  REG[rd] <= writedata;
 		  end

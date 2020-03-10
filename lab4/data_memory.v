@@ -16,10 +16,12 @@ module data_memory (
 	
 		read_data <= 0;
 		
-		//  Initialize DMEM[0-5] from data.txt
+		//  Initialize DMEM[0-7] from data_final.txt ---KL
 		
-		$readmemb("data.txt",DMEM);
-		
+		$readmemb("data_final.txt",DMEM);
+		for (i = 0; i <6; i = i+1)
+		  $display(DMEM[i]);
+		/*
 		DMEM[0] <= 'h002300AA;
 		DMEM[1] <= 'h10654321;
 		DMEM[2] <= 'h00100022;
@@ -28,14 +30,14 @@ module data_memory (
 		DMEM[5] <= 'hAD654321;
 		DMEM[6] <= 'h13012345;
 		DMEM[7] <= 'hAC654321;
-		DMEM[8] <= 'h12012345;
+		DMEM[8] <= 'h12012345; */
 		
 		
-		// Initialize DMEM[6-255] to 6-255
+		// Initialize DMEM[8-255] to 8-255
 		for (i = 8; i < 256; i = i + 1)
 		//for (i = 0; i < 256; i = i + 1) //remove this if we use more memory
 			DMEM[i] = i;
-		
+		/*
 		//Display DMEM[0-5]
 		$display("From Data Memory (data.txt):");
 		for (i = 0; i < 6; i = i + 1)
@@ -48,7 +50,7 @@ module data_memory (
 		
 		//Display DMEM[255]
 		$display("\t...");
-		$display("\tDMEM[%0d] = %0d", 255, DMEM[255]);
+		$display("\tDMEM[%0d] = %0d", 255, DMEM[255]); */
 			
    end
    

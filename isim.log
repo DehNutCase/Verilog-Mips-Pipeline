@@ -8,79 +8,147 @@ This is a Lite version of ISim.
 WARNING: File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 28.  For instance IEXECUTE2/ex_mux_2/, width 32 of formal port a is not equal to width 5 of actual signal instrout_1511.
 WARNING: File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 28.  For instance IEXECUTE2/ex_mux_2/, width 32 of formal port b is not equal to width 5 of actual signal instrout_2016.
 WARNING: File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/I_EXECUTE.v" Line 39.  For instance IEXECUTE2/ex_mux_2/, width 32 of formal port y is not equal to width 5 of actual signal muxout.
-WARNING: File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/WRITEBACK.v" Line 40.  For instance WB_2/write_back_mux/, width 32 of formal port y is not equal to width 1 of actual signal WB_mux5_writedata.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
-From Data Memory (data.txt):
-	DMEM[0] = 0
-	DMEM[1] = 1
-	DMEM[2] = 2
-	DMEM[3] = 3
-	DMEM[4] = 4
-	DMEM[5] = 5
-From Data Memory (initial):
-	DMEM[6] = x
-	DMEM[7] = x
-	DMEM[8] = 8
-	DMEM[9] = 9
-	...
-	DMEM[255] = 255
+2348875776
+2349072385
+2147483648
+      4128
+   2103328
+ 276889614
+2147483648
+2147483648
+2147483648
+ 276824079
+2147483648
+2147483648
+2147483648
+   4397088
+   6295584
+   8462370
+ 268500980
+2147483648
+2147483648
+2147483648
+   6301728
+ 268435464
+2147483648
+2147483648
+         1
+         6
+         0
+         0
+         0
+         0
 Finished circuit initialization process.
 RTYPE.
-From Register Memory:
-	REG[0] = 0
-	REG[1] = 0
-	REG[2] = 0
-	REG[3] = 0
-	REG[4] = 0
-	REG[5] = 0
-	REG[6] = 0
-	REG[7] = 0
-	REG[8] = 0
-	...
-	REG[31] = 0
+LW.
+RTYPE.
+BEQ.
 BEQ.
 RTYPE.
-LW.
-Opcode not recognized.
-Stopped at time : 24 ns :  in File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Pipeline.v" Line 22 
+BEQ.
+BEQ.
+BEQ.
+RTYPE.
+BEQ.
+BEQ.
+Stopped at time : 40 ns :  in File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Pipeline.v" Line 22 
 # restart
 # run all
 Simulator is doing circuit initialization process.
-From Data Memory (data.txt):
-	DMEM[0] = 0
-	DMEM[1] = 1
-	DMEM[2] = 2
-	DMEM[3] = 3
-	DMEM[4] = 4
-	DMEM[5] = 5
-From Data Memory (initial):
-	DMEM[6] = x
-	DMEM[7] = x
-	DMEM[8] = 8
-	DMEM[9] = 9
-	...
-	DMEM[255] = 255
+2348875776
+2349072385
+2147483648
+      4128
+   2103328
+ 276889614
+2147483648
+2147483648
+2147483648
+ 276824079
+2147483648
+2147483648
+2147483648
+   4397088
+   6295584
+   8462370
+ 268500980
+2147483648
+2147483648
+2147483648
+   6301728
+ 268435464
+2147483648
+2147483648
+         1
+         6
+         0
+         0
+         0
+         0
 Finished circuit initialization process.
 RTYPE.
-From Register Memory:
-	REG[0] = 0
-	REG[1] = 0
-	REG[2] = 0
-	REG[3] = 0
-	REG[4] = 0
-	REG[5] = 0
-	REG[6] = 0
-	REG[7] = 0
-	REG[8] = 0
-	...
-	REG[31] = 0
+LW.
+RTYPE.
+BEQ.
 BEQ.
 RTYPE.
+BEQ.
+BEQ.
+BEQ.
+RTYPE.
+BEQ.
+BEQ.
+Stopped at time : 40 ns :  in File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Pipeline.v" Line 22 
+# restart
+# run all
+Simulator is doing circuit initialization process.
+2348875776
+2349072385
+2147483648
+      4128
+   2103328
+ 276889614
+2147483648
+2147483648
+2147483648
+ 276824079
+2147483648
+2147483648
+2147483648
+   4397088
+   6295584
+   8462370
+ 268500980
+2147483648
+2147483648
+2147483648
+   6301728
+ 268435464
+2147483648
+2147483648
+         1
+         6
+         0
+         0
+         0
+         0
+Finished circuit initialization process.
+RTYPE.
 LW.
-Opcode not recognized.
-Stopped at time : 24 ns :  in File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Pipeline.v" Line 22 
+RTYPE.
+BEQ.
+BEQ.
+RTYPE.
+BEQ.
+BEQ.
+BEQ.
+RTYPE.
+BEQ.
+BEQ.
+Stopped at time : 40 ns :  in File "/home/csusb.edu/006198682/Documents/CSE 401/CSE401_Project/Pipeline.v" Line 22 
 # exit 0

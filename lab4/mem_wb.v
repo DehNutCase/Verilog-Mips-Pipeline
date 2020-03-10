@@ -24,9 +24,11 @@ always@* begin
 	mem_write_reg <= write_reg_in;
 	read_data <= read_data_in;
 	mem_alu_result <= alu_result_in;
+	
 	//KL, double check this bit
-	regwrite <= control_wb_in[1];
 	memtoreg <= control_wb_in[0];
+	//regwrite is being set too fast, we need to synchronize it with write_back_mux
+	regwrite <= control_wb_in[1];
 end
 
 endmodule // mem_wb
